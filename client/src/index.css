@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif !important;;
+}
+body {
+  background-color: #ffffff;
+  background:linear-gradient(to right,#ffffff,#edffd1);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* NAVBAR */
+.navBar{
+  background-color: transparent !important;
+  box-shadow: transparent;
+}
+
+/* SIGNUP */
+.inputField .MuiOutlinedInput-root {
+  background-color: transparent;
+}
+.inputField .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #98d633; /* Border color on hover */
+}
+.inputField .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #98d633; /* Border color on focus */
+}
+.inputField .MuiInputLabel-root.Mui-focused,
+.inputField .MuiInputLabel-root[data-shrink="true"] {
+    /*top: -10px; Adjust as necessary */
+    color: #519434;
+    font-size: 15px;
+}
+button.btn {
+  margin-top: 2rem; 
+  margin-bottom: 1rem; 
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: #98d633;
+  color: #ffffff;
+  box-shadow: none;
+  transition: background-color 0.3s;
+}
+button.btn:hover{
+  background-color: #77b416;
+}
+div .linkBtn {
+  margin-right: 30px;
+  text-transform: none;
+  color: #98d633;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: transparent;
+  box-shadow: none;
+  transition: text-decoration 0.3s ease;
+}
+div .linkBtn:hover{
+  background-color: transparent;
+  box-shadow: none;
+  color: #519434;
+  text-decoration: underline;
+  transition: text-decoration 0.3s ease;
+}
+
+
+
+
